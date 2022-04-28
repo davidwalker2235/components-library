@@ -1,0 +1,31 @@
+:host {
+  --background: var(--button-background, #1562AD);
+  --background-hover: var(--button-background-hover, gold);
+  --color: var(--button-color, rebeccapurple);
+}
+
+button {
+  width: 102px;
+  height: 40px;
+  background: #1562AD;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #1B3067
+}
+
+.button-text {
+  position: static;
+  height: 21px;
+  left: 0;
+  right: 0;
+  top: calc(50% - 21px/2);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
